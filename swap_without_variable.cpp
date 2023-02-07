@@ -1,3 +1,5 @@
+// C++ program to swap two
+// numbers without using 3rd variable
 #include <iostream>  
 using namespace std;  
 int main()  
