@@ -1,12 +1,12 @@
-#include<stdio.h>
-using namespace std;
-int main()
-{
-    int a= 10, b=20;
-    printf("Before swap a=%d b=%d",a,b);
-    a=a+b;//a=30(10+20)
-    b=a-b;//b=10(30-20)
-    a=a-b;//a=20(30-10)
-    printf("\nAfter swap a=%d b=%d",a,b);
-    return 0;
-}
+#include <iostream>  
+using namespace std;  
+int main()  
+{  
+int a=5, b=10;      
+cout<<"Before swap a= "<<a<<" b= "<<b<<endl;      
+a=a*b; //a=50 (5*10)    
+b=a/b; //b=5 (50/10)    
+a=a/b; //a=10 (50/5)    
+cout<<"After swap a= "<<a<<" b= "<<b<<endl;      
+return 0;  
+}  
