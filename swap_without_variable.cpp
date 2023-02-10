@@ -1,14 +1,19 @@
-// C++ program to swap two
-// numbers without using 3rd variable
-#include <iostream>  
-using namespace std;  
-int main()  
-{  
-int a=5, b=10;      
-cout<<"Before swap a= "<<a<<" b= "<<b<<endl;      
-a=a+b; //a=15 (5+10)    
-b=a-b; //b=5 (15-10)    
-a=a-b; //a=10 (15-5)    
-cout<<"After swap a= "<<a<<" b= "<<b<<endl;      
-return 0;  
-}  
+//SWAPPING WITHOUT THIRD VARIABLE
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num1, num2;
+    cout<<"Enter Num 1:"<<endl;
+    cin>>num1;
+    cout<<"Enter Num 2:"<<endl;
+    cin>>num2;
+    num1=num1+num2;
+    num2=num1-num2;
+    num1=num1-num2;
+    cout<<"Number 1: "<<num1<<endl;
+    cout<<"Number 2: "<<num2<<endl;
+
+    return 0;
+}
